@@ -3,3 +3,4 @@
 * At each position of the grid there is either a space or a "#" character. 
 * The characters should form a chessboard.
 */
+console.log('prova update git')
