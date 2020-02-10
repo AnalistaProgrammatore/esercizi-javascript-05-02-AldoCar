@@ -3,4 +3,16 @@
 * At each position of the grid there is either a space or a "#" character. 
 * The characters should form a chessboard.
 */
-console.log('prova update git')
+let size=8;
+
+let str="";
+
+for (let i=0; i<size; i++) {
+  for (let y=0; y<size; y++) {
+    if ((i+y)%2==0) str+=" ";
+    else str+="#";
+  }
+  str+="\n";
+}
+
+console.log(str);
